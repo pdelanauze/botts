@@ -1,0 +1,30 @@
+{
+  "name": "botts",
+  "version": "1.0.0",
+  "description": "botts",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/tsc && ./node_modules/.bin/nodemon app/worker",
+    "test": "./node_modules/.bin/mocha test/"
+  },
+  "keywords": [
+    "bot",
+    "typescript"
+  ],
+  "author": "Patrick de Lanauze <patrick.delanauze@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.2.0",
+    "lodash": "^4.10.0",
+    "moment": "^2.12.0",
+    "node-uuid": "^1.4.7",
+    "request": "^2.72.0",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.2"
+  }
+}
