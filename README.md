@@ -7,4 +7,4 @@ This token can be generated from https://api.slack.com/tokens (make sure it has 
 
 ### Booting up
 
-`nvm use && npm install && ./node_modules/.bin/typings install && TOKEN=xoxp- npm start`
+`nvm use && npm install && ./node_modules/.bin/typings install && SLACK_TOKEN=xoxp- npm start`
